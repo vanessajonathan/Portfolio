@@ -79,7 +79,7 @@ with st.container():
                 <a href="https://public.tableau.com/app/profile/mad27/vizzes" style="text-decoration: none;">Tableau Profile</a>
             </div>
         """, unsafe_allow_html=True)   
-        col_exp_left_1, col_exp_mid_1 = st.columns([2,3])
+        col_exp_left_1, col_exp_mid_1 = st.columns([1,1])
 
         style = """
             <style>
