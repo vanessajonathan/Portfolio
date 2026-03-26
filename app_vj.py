@@ -49,7 +49,7 @@ with st.container():
     col_img, col_exp = st.columns([1, 5])
     
     with col_img:
-        st.image('image/mama-ghufron.png', width=270)
+        # st.image('image/mama-ghufron.png', width=270)
         # st.image("https://th.bing.com/th/id/OIP.mFcTm725dfQQu6YxzNv2OAHaEK?w=283&h=180&c=7&r=0&o=7&pid=1.7&rm=3", width=270)
         
         st.markdown("""
