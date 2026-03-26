@@ -29,15 +29,14 @@ def logo_link(link, path_img, width):
 horizontal_line()
 st.markdown("""
     <div style='text-align: center; font-size:36px'>
-        <b>Marselius Agus Dhion - Portfolio</b>
+        <b>Vanessa Jonathan - Portfolio</b>
     </div>
 """, unsafe_allow_html=True)
 
 st.markdown("""
     <div style='text-align: center; font-size:20px;'>|
-        <a href="#internship-experiences" style='text-decoration: none;'>Internship Experiences</a> | 
+        <a href="#work-experiences" style='text-decoration: none;'>Work Experiences</a> | 
         <a href="#projects" style='text-decoration: none;'>Projects</a> | 
-        <a href="#thesis" style='text-decoration: none;'>Thesis</a> |
     </div>
 """, unsafe_allow_html=True)
 
@@ -50,8 +49,8 @@ with st.container():
     col_img, col_exp = st.columns([1, 5])
     
     with col_img:
-        # st.image('image/mama-ghufron.png', width=270)
-        # st.image("https://th.bing.com/th/id/OIP.mFcTm725dfQQu6YxzNv2OAHaEK?w=283&h=180&c=7&r=0&o=7&pid=1.7&rm=3", width=270)
+        st.image('image/mama-ghufron.png', width=270)
+        st.image("https://th.bing.com/th/id/OIP.mFcTm725dfQQu6YxzNv2OAHaEK?w=283&h=180&c=7&r=0&o=7&pid=1.7&rm=3", width=270)
         
         st.markdown("""
             <div style='text-align: center; font-size:20px'>
