@@ -79,7 +79,7 @@ with st.container():
                 <a href="https://public.tableau.com/app/profile/mad27/vizzes" style="text-decoration: none;">Tableau Profile</a>
             </div>
         """, unsafe_allow_html=True)   
-        col_exp_left_1, col_exp_mid_1, col_exp_right_1 = st.columns([2,3,5])
+        col_exp_left_1, col_exp_mid_1 = st.columns([2,3])
 
         style = """
             <style>
@@ -114,19 +114,19 @@ with st.container():
                         </div>""", 
                         unsafe_allow_html=True)
 
-        with col_exp_right_1:
-            st.markdown(style, unsafe_allow_html=True)
-            st.markdown("""<div class="rounded-box">
-                        <b>Achievements</b> 🎖️ 
-                        <br>
-                            ○ Favourite Dashboard Winner - Pedas (Pesta Data Nasional 2023) -
-                                <a href="https://public.tableau.com/app/profile/mad27/viz/Superstore_16986572902350/Final-Dashboard">Tableau Dashboard</a> |
-                                <a href="https://drive.google.com/file/d/1ER6NIrTQ5TF7oXmdfJx73ZbYLeTkFGov/view?usp=sharing">Certificate</a>
-                            <br>
-                            ○ <b>Dean List:</b> Even Semester 21/22 | Odd Semester 22/23 | Even Semester 22/23 | Odd Semester 23/24
-                            <br>
-                        </div>""", 
-                        unsafe_allow_html=True)
+        # with col_exp_right_1:
+        #     st.markdown(style, unsafe_allow_html=True)
+        #     st.markdown("""<div class="rounded-box">
+        #                 <b>Achievements</b> 🎖️ 
+        #                 <br>
+        #                     ○ Favourite Dashboard Winner - Pedas (Pesta Data Nasional 2023) -
+        #                         <a href="https://public.tableau.com/app/profile/mad27/viz/Superstore_16986572902350/Final-Dashboard">Tableau Dashboard</a> |
+        #                         <a href="https://drive.google.com/file/d/1ER6NIrTQ5TF7oXmdfJx73ZbYLeTkFGov/view?usp=sharing">Certificate</a>
+        #                     <br>
+        #                     ○ <b>Dean List:</b> Even Semester 21/22 | Odd Semester 22/23 | Even Semester 22/23 | Odd Semester 23/24
+        #                     <br>
+        #                 </div>""", 
+        #                 unsafe_allow_html=True)
         
         enter()
         col_exp_left_2, col_exp_right_2 = st.columns(2)
